@@ -100,8 +100,12 @@ int main()
 
 	for (int i = 0; i < E; i++)
 	{
+	{
+		cout << "graph->edge[0].src = ";
 		graph->edge[i].src = eSrc;
+		cout << "graph->edge[0].dest = ";
 		graph->edge[i].dest = eDest;
+		cout << "graph->edge[0].weight = ";
 		graph->edge[i].weight = eWeight;
 	}
 	// graph->edge[0].src = 0;
